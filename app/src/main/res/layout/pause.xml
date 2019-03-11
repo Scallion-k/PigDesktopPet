@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="260dp"
+    android:background="@drawable/pause"
+    android:padding="0dip" >
+
+
+    <Button
+        android:id="@+id/bresume"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/button_r"
+        android:text="继续"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/bexit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bresume"
+        android:layout_below="@+id/bresume"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/button_e"
+        android:text="退出"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+</RelativeLayout>
